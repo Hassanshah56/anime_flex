@@ -1,0 +1,151 @@
+@keyframes swingdown {
+    0% {
+      opacity: .99999;
+      transform: rotateX(90deg);
+    }
+
+    30% {     
+      transform: rotateX(-20deg) rotateY(5deg);
+      animation-timing-function: ease-in-out;
+    }
+
+    65% {
+      transform: rotateX(20deg) rotateY(-3deg);
+      animation-timing-function: ease-in-out;
+    }
+
+    100% {
+      transform: rotateX(0);
+      animation-timing-function: ease-in-out;
+    }
+    }
+    @media (min-width: 2560px) {
+      .img3{
+        width: 95.5%;
+        height: 2000px;
+        position: absolute;
+      }
+      .img4{
+        width: 95.5%;
+        height: 2000px;
+      }
+      .tag{
+        position: relative;
+        width: 800px;
+        font-size: 80px;
+        top: 380px;
+        left: 150px;
+          }
+          .tag1{
+            position: relative;
+            width: 700px;
+            font-size: 25x;
+            top: 400px;
+            left: 150px;
+          }
+          .tag2{
+            position: relative;
+            width: 200px;
+            top: 450px;
+            left: 220px;
+            font-size: larger;
+        
+          }
+          .movies2{
+            width: 400px;
+            height: 500px;
+          }
+          .movies4{
+            width: 400px;
+            height: 450px;
+          }
+  }
+  
+  @media (max-width: 768px) {
+    .img3{
+      width: 95.5%;
+      height: 700px;
+      position: absolute;
+    }
+    .img4{
+      width: 95.5%;
+      height: 700px;
+    }
+    .tag{
+      position: relative;
+      width: 200px;
+      font-size: 20px;
+      top: 170px;
+      left: 130px;
+        }
+        .tag1{
+          position: relative;
+        width: 300px;
+        font-size: 10px;
+        top: 180px;
+
+        }
+        .tag2{
+          position: relative;
+          width: 40px;
+          top: 180px;
+          left: 160px;
+          font-size: 5px;
+          height: 10px;
+  }
+ }
+ @media (max-width: 425px) {
+  .img3 {
+    width: 85%;
+    height: 300px;
+    position: absolute;
+}
+  .img4{
+    width: 85%;
+    height: 300px;
+  }
+  .h12{
+    font-size: 10px;
+  }
+  .black {
+    width: 100%;
+    height: 30px;
+}
+.tag{
+  position: relative;
+  width: 200px;
+  font-size: 10px;
+  top: 70px;
+  left: 30px;
+    }
+    .tag1{
+      position: relative;
+    width: 100px;
+    font-size: 5px;
+    top: 70px;
+    left: 20px;
+    }
+  
+     .tag2{
+position: relative;
+width: 40px;
+top: 55px;
+left: 70px;
+font-size: 5px;
+height: 10px;
+}
+  .movies2{
+    width: 100px;
+    height: 200px;
+  }
+  .movies4 {
+    width: 95px;
+    border-radius: 8px;
+}
+.spam1{
+  font-size: 11px;
+}
+.h12{
+  font-size: 7px;
+}
+ }
